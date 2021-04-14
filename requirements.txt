@@ -1,3 +1,0 @@
-pysimplelog
-modeller
-Bio
