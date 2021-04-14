@@ -1,0 +1,1340 @@
+2021-04-13 12:13:46 - logger <DEBUG> ...STARTING...
+2021-04-13 12:13:46 - logger <INFO> Parameters used are:
+  - Number of chains: 100
+  - RMSD threshold: 
+0.3000
+  - Clashes threshold 30
+2021-04-13 12:13:46 - logger <INFO> The initial complex has 2 chains and are the following:
+2021-04-13 12:13:46 - logger <INFO> Chain %s
+A
+2021-04-13 12:13:46 - logger <INFO> Chain %s
+B
+2021-04-13 12:13:46 - logger <INFO> This is the iteration #0 of the recursive function
+2021-04-13 12:13:46 - logger <INFO> The complex has 2 chains at this point
+2021-04-13 12:13:46 - logger <INFO> We are processing the file 6m17_AB.pdb
+2021-04-13 12:13:47 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:47 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:47 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:13:47 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:47 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:13:47 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:47 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:47 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:13:47 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:47 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:13:47 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:13:47 - logger <INFO> Putative chain to add is B
+2021-04-13 12:13:47 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:13:47 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:13:47 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:13:47 - logger <INFO> Putative chain to add is A
+2021-04-13 12:13:47 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:13:47 - logger <INFO> This is the iteration #1 of the recursive function
+2021-04-13 12:13:48 - logger <INFO> The complex has 2 chains at this point
+2021-04-13 12:13:48 - logger <INFO> We are processing the file 6m17_BD.pdb
+2021-04-13 12:13:48 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:48 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:48 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:13:48 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:48 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:13:48 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:48 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:48 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:13:48 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:48 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:13:48 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:13:48 - logger <INFO> Putative chain to add is D
+2021-04-13 12:13:49 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:49 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:13:49 - logger <INFO> Chain B superimposed with chain B yields rotated chain D which is not in the complex
+2021-04-13 12:13:49 - logger <INFO> Added Chain D
+2021-04-13 12:13:49 - logger <INFO> This is the iteration #2 of the recursive function
+2021-04-13 12:13:49 - logger <INFO> The complex has 3 chains at this point
+2021-04-13 12:13:49 - logger <INFO> We are processing the file 6m17_BE.pdb
+2021-04-13 12:13:49 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:49 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:49 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:13:49 - logger <INFO> Processing sample chain E
+2021-04-13 12:13:49 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:13:49 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:49 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:49 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:13:49 - logger <INFO> Processing sample chain E
+2021-04-13 12:13:50 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:13:50 - logger <INFO> Processing reference chain D
+2021-04-13 12:13:50 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:50 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:13:50 - logger <INFO> Processing sample chain E
+2021-04-13 12:13:50 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:13:50 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:13:50 - logger <INFO> Putative chain to add is E
+2021-04-13 12:13:50 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:50 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:13:50 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:13:50 - logger <INFO> Chain B superimposed with chain B yields rotated chain E which is not in the complex
+2021-04-13 12:13:50 - logger <INFO> Added Chain E
+2021-04-13 12:13:50 - logger <INFO> This is the iteration #3 of the recursive function
+2021-04-13 12:13:50 - logger <INFO> The complex has 4 chains at this point
+2021-04-13 12:13:50 - logger <INFO> We are processing the file 6m17_CD.pdb
+2021-04-13 12:13:51 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:51 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:51 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:13:51 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:51 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:51 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:13:51 - logger <INFO> Processing reference chain D
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:51 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:51 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:13:51 - logger <INFO> Processing reference chain E
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:51 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:13:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:52 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:13:52 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:13:52 - logger <INFO> Putative chain to add is C
+2021-04-13 12:13:52 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:52 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:13:52 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:13:52 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:13:52 - logger <INFO> Chain D superimposed with chain D yields rotated chain C which is not in the complex
+2021-04-13 12:13:52 - logger <INFO> Added Chain C
+2021-04-13 12:13:52 - logger <INFO> This is the iteration #4 of the recursive function
+2021-04-13 12:13:52 - logger <INFO> The complex has 5 chains at this point
+2021-04-13 12:13:52 - logger <INFO> We are processing the file 6m17_DF.pdb
+2021-04-13 12:13:52 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:52 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:53 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain F
+2021-04-13 12:13:53 - logger <WARNING> Cannot superimpose. Chain A and F differ in length
+2021-04-13 12:13:53 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:53 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain F
+2021-04-13 12:13:53 - logger <WARNING> Cannot superimpose. Chain B and F differ in length
+2021-04-13 12:13:53 - logger <INFO> Processing reference chain D
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:53 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain F
+2021-04-13 12:13:53 - logger <WARNING> Cannot superimpose. Chain D and F differ in length
+2021-04-13 12:13:53 - logger <INFO> Processing reference chain E
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:53 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:13:53 - logger <INFO> Processing sample chain F
+2021-04-13 12:13:53 - logger <INFO> The RMSD between fixed chain E and query chain F is 5.851331435678353e-06
+2021-04-13 12:13:53 - logger <INFO> Processing reference chain C
+2021-04-13 12:13:54 - logger <INFO> Processing sample chain D
+2021-04-13 12:13:54 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:13:54 - logger <INFO> Processing sample chain F
+2021-04-13 12:13:54 - logger <WARNING> Cannot superimpose. Chain C and F differ in length
+2021-04-13 12:13:54 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:13:54 - logger <INFO> Putative chain to add is F
+2021-04-13 12:13:54 - logger <INFO> The number of clashes between the chain to add F and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:54 - logger <INFO> The number of clashes between the chain to add F and reference chain B is 0, it is under the threshold
+2021-04-13 12:13:54 - logger <INFO> The number of clashes between the chain to add F and reference chain D is 1, it is under the threshold
+2021-04-13 12:13:54 - logger <INFO> The number of clashes between the chain to add F and reference chain E is 0, it is under the threshold
+2021-04-13 12:13:54 - logger <INFO> The number of clashes between the chain to add F and reference chain C is 0, it is under the threshold
+2021-04-13 12:13:54 - logger <INFO> Chain D superimposed with chain D yields rotated chain F which is not in the complex
+2021-04-13 12:13:54 - logger <INFO> Added Chain F
+2021-04-13 12:13:54 - logger <INFO> This is the iteration #5 of the recursive function
+2021-04-13 12:13:54 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:13:54 - logger <INFO> We are processing the file 6m17_1.pdb
+2021-04-13 12:13:54 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:55 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:55 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:13:55 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:55 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:55 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:13:55 - logger <INFO> Processing reference chain D
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:55 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:55 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:13:55 - logger <INFO> Processing reference chain E
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:55 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:13:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:55 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:13:56 - logger <INFO> Processing reference chain C
+2021-04-13 12:13:56 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:56 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:13:56 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:56 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:13:56 - logger <INFO> Processing reference chain F
+2021-04-13 12:13:56 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:56 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:13:56 - logger <INFO> Processing sample chain B
+2021-04-13 12:13:56 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:13:56 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:13:56 - logger <INFO> Putative chain to add is B
+2021-04-13 12:13:56 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:13:56 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:13:56 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:13:56 - logger <INFO> Putative chain to add is A
+2021-04-13 12:13:56 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:13:57 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:13:57 - logger <INFO> Putative chain to add is A
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:13:57 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:13:57 - logger <INFO> Putative chain to add is A
+2021-04-13 12:13:57 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:13:57 - logger <INFO> This is the iteration #6 of the recursive function
+2021-04-13 12:13:57 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:13:57 - logger <INFO> We are processing the file 6m17_2.pdb
+2021-04-13 12:13:58 - logger <INFO> Processing reference chain A
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:58 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:58 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:13:58 - logger <INFO> Processing reference chain B
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing reference chain D
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing reference chain E
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:58 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:13:58 - logger <INFO> Processing reference chain C
+2021-04-13 12:13:59 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:59 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:13:59 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:59 - logger <INFO> The RMSD between fixed chain C and query chain C is 1.5405553711723773e-14
+2021-04-13 12:13:59 - logger <INFO> Processing reference chain F
+2021-04-13 12:13:59 - logger <INFO> Processing sample chain A
+2021-04-13 12:13:59 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:13:59 - logger <INFO> Processing sample chain C
+2021-04-13 12:13:59 - logger <WARNING> Cannot superimpose. Chain F and C differ in length
+2021-04-13 12:13:59 - logger <INFO> Superimposition of ref chain C with sample chain C with an RMSD of 1.5405553711723773e-14
+2021-04-13 12:13:59 - logger <INFO> Putative chain to add is A
+2021-04-13 12:13:59 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:13:59 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:13:59 - logger <INFO> Putative chain to add is C
+2021-04-13 12:13:59 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:13:59 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:13:59 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:13:59 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:00 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:14:00 - logger <INFO> Superimposition of ref chain A with sample chain C with an RMSD of 4.97874195266334e-06
+2021-04-13 12:14:00 - logger <INFO> Putative chain to add is C
+2021-04-13 12:14:00 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:00 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:14:00 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:00 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:00 - logger <INFO> This is the iteration #7 of the recursive function
+2021-04-13 12:14:00 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:00 - logger <INFO> We are processing the file 6m17_3.pdb
+2021-04-13 12:14:00 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:00 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:00 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:00 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:00 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:14:00 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:00 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:01 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:14:01 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:01 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:14:01 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:01 - logger <INFO> The RMSD between fixed chain E and query chain E is 1.1314194731056107e-14
+2021-04-13 12:14:01 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain C and E differ in length
+2021-04-13 12:14:01 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:01 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:01 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:02 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:02 - logger <INFO> The RMSD between fixed chain F and query chain E is 5.851331436667065e-06
+2021-04-13 12:14:02 - logger <INFO> Superimposition of ref chain E with sample chain E with an RMSD of 1.1314194731056107e-14
+2021-04-13 12:14:02 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:02 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:02 - logger <INFO> Putative chain to add is E
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add E and reference chain E is 611, therefore the chain is skipped
+2021-04-13 12:14:02 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:02 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:02 - logger <INFO> The number of clashes between the chain to add B and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:02 - logger <INFO> Superimposition of ref chain F with sample chain E with an RMSD of 5.851331436667065e-06
+2021-04-13 12:14:03 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:03 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:03 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:03 - logger <INFO> This is the iteration #8 of the recursive function
+2021-04-13 12:14:03 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:03 - logger <INFO> We are processing the file 6m17_4.pdb
+2021-04-13 12:14:03 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:03 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:03 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:03 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:03 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:14:03 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:03 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:03 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:04 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:14:04 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:04 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:04 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:14:04 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:04 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:04 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:14:04 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:04 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:04 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:04 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:14:05 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:05 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:05 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:05 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:05 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:14:05 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:05 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:05 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:14:05 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:05 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:14:05 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:05 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:06 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:06 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:06 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:06 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:06 - logger <INFO> This is the iteration #9 of the recursive function
+2021-04-13 12:14:06 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:06 - logger <INFO> We are processing the file 6m17_AB.pdb
+2021-04-13 12:14:06 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:06 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:06 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:14:06 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:06 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:06 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:07 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:07 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:07 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:07 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:07 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:07 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:07 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:07 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:07 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:07 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:14:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:07 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:08 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:08 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:08 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:14:08 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:08 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:08 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:14:08 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:08 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:08 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:08 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:08 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:14:08 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:14:09 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:09 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:14:09 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:14:09 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:09 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:09 - logger <INFO> This is the iteration #10 of the recursive function
+2021-04-13 12:14:09 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:09 - logger <INFO> We are processing the file 6m17_BD.pdb
+2021-04-13 12:14:09 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:09 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:09 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:09 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:09 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:14:09 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:09 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:10 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:10 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:14:10 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:10 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:10 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:14:10 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:10 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:10 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:14:10 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:10 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:10 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:10 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:14:10 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:11 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:11 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:11 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:11 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:14:11 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:11 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:11 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:14:11 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:11 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:14:11 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:11 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:12 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:12 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:12 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:12 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:12 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:12 - logger <INFO> This is the iteration #11 of the recursive function
+2021-04-13 12:14:12 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:12 - logger <INFO> We are processing the file 6m17_BE.pdb
+2021-04-13 12:14:12 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:12 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:12 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:12 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:12 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:14:12 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:12 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:13 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:13 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:14:13 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:13 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:13 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:14:13 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:13 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:13 - logger <INFO> The RMSD between fixed chain E and query chain E is 1.1314194731056107e-14
+2021-04-13 12:14:13 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:13 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:13 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:13 - logger <WARNING> Cannot superimpose. Chain C and E differ in length
+2021-04-13 12:14:13 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:14 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:14 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:14 - logger <INFO> Processing sample chain E
+2021-04-13 12:14:14 - logger <INFO> The RMSD between fixed chain F and query chain E is 5.851331436667065e-06
+2021-04-13 12:14:14 - logger <INFO> Superimposition of ref chain E with sample chain E with an RMSD of 1.1314194731056107e-14
+2021-04-13 12:14:14 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:14 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:14 - logger <INFO> Putative chain to add is E
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:14:14 - logger <INFO> The number of clashes between the chain to add E and reference chain E is 611, therefore the chain is skipped
+2021-04-13 12:14:14 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:14 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:15 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:15 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:15 - logger <INFO> The number of clashes between the chain to add B and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:15 - logger <INFO> Superimposition of ref chain F with sample chain E with an RMSD of 5.851331436667065e-06
+2021-04-13 12:14:15 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:15 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:15 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:15 - logger <INFO> This is the iteration #12 of the recursive function
+2021-04-13 12:14:15 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:15 - logger <INFO> We are processing the file 6m17_CD.pdb
+2021-04-13 12:14:15 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:15 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:15 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:14:15 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:15 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:14:15 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:16 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:14:16 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:16 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:14:16 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:14:16 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:16 - logger <INFO> The RMSD between fixed chain C and query chain C is 1.5405553711723773e-14
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:14:16 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:16 - logger <INFO> Processing sample chain C
+2021-04-13 12:14:16 - logger <WARNING> Cannot superimpose. Chain F and C differ in length
+2021-04-13 12:14:17 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:17 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:14:17 - logger <INFO> Superimposition of ref chain C with sample chain C with an RMSD of 1.5405553711723773e-14
+2021-04-13 12:14:17 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:17 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:14:17 - logger <INFO> Putative chain to add is C
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:17 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:14:17 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:14:18 - logger <INFO> Putative chain to add is C
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:18 - logger <INFO> Superimposition of ref chain A with sample chain C with an RMSD of 4.97874195266334e-06
+2021-04-13 12:14:18 - logger <INFO> Putative chain to add is C
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:18 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:14:18 - logger <INFO> This is the iteration #13 of the recursive function
+2021-04-13 12:14:18 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:18 - logger <INFO> We are processing the file 6m17_DF.pdb
+2021-04-13 12:14:18 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:18 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:18 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:14:18 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:18 - logger <WARNING> Cannot superimpose. Chain A and F differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:19 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain B and F differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:19 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain D and F differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:19 - logger <INFO> The RMSD between fixed chain E and query chain F is 5.851331435678353e-06
+2021-04-13 12:14:19 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain C and F differ in length
+2021-04-13 12:14:19 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:19 - logger <INFO> Processing sample chain D
+2021-04-13 12:14:19 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:14:20 - logger <INFO> Processing sample chain F
+2021-04-13 12:14:20 - logger <INFO> The RMSD between fixed chain F and query chain F is 2.058544533668249e-14
+2021-04-13 12:14:20 - logger <INFO> Superimposition of ref chain F with sample chain F with an RMSD of 2.058544533668249e-14
+2021-04-13 12:14:20 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:20 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:14:20 - logger <INFO> Putative chain to add is F
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain B is 0, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain D is 1, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain C is 0, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add F and reference chain F is 611, therefore the chain is skipped
+2021-04-13 12:14:20 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:14:20 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:20 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:20 - logger <INFO> Superimposition of ref chain E with sample chain F with an RMSD of 5.851331435678353e-06
+2021-04-13 12:14:20 - logger <INFO> Putative chain to add is D
+2021-04-13 12:14:21 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:21 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:14:21 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:14:21 - logger <INFO> This is the iteration #14 of the recursive function
+2021-04-13 12:14:21 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:21 - logger <INFO> We are processing the file 6m17_1.pdb
+2021-04-13 12:14:21 - logger <INFO> Processing reference chain A
+2021-04-13 12:14:21 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:21 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:14:21 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:21 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:14:21 - logger <INFO> Processing reference chain B
+2021-04-13 12:14:21 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:21 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:14:21 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:21 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:14:22 - logger <INFO> Processing reference chain D
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:22 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:14:22 - logger <INFO> Processing reference chain E
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:14:22 - logger <INFO> Processing reference chain C
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:22 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:14:22 - logger <INFO> Processing reference chain F
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain A
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:14:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:14:22 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:14:22 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:14:23 - logger <INFO> Putative chain to add is B
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:14:23 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:14:23 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:23 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:14:23 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:14:23 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:14:23 - logger <INFO> Putative chain to add is A
+2021-04-13 12:14:23 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:14:23 - logger <INFO> This is the iteration #15 of the recursive function
+2021-04-13 12:14:23 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:14:24 - logger <INFO> The whole macrocomplex has been build
+2021-04-13 12:14:24 - logger <INFO> The final complex has 6 chains
+2021-04-13 12:14:24 - logger <INFO> We have arrived to iteration 15
+2021-04-13 12:14:25 - logger <INFO> Output files McComplex.pdb and 
+	McComplex.log saved in /home/ferran/MSc/PYT/SBI_PYT_Develop_OPTIMIZATION_12_04/SBI_PYT_Develop_OPTIMIZATION_12_04/examples/6m17_output
+2021-04-13 12:15:09 - logger <INFO> 
+
+The initial energy of McComplex is 25299.048828125
+2021-04-13 12:15:09 - logger <INFO> 
+
+The final energy of McComplex is 11578.7255859375
+2021-04-13 12:15:09 - logger <INFO> The program has finished. It took 83.354949 seconds
+2021-04-13 12:28:49 - logger <DEBUG> ...STARTING...
+2021-04-13 12:28:49 - logger <INFO> Parameters used are:
+  - Number of chains: 100
+  - RMSD threshold: 
+0.3000
+  - Clashes threshold 30
+2021-04-13 12:28:50 - logger <INFO> The initial complex has 2 chains and are the following:
+2021-04-13 12:28:50 - logger <INFO> Chain %s
+A
+2021-04-13 12:28:50 - logger <INFO> Chain %s
+B
+2021-04-13 12:28:50 - logger <INFO> This is the iteration #0 of the recursive function
+2021-04-13 12:28:50 - logger <INFO> The complex has 2 chains at this point
+2021-04-13 12:28:50 - logger <INFO> We are processing the file 6m17_AB.pdb
+2021-04-13 12:28:50 - logger <INFO> Processing reference chain A
+2021-04-13 12:28:51 - logger <INFO> Processing sample chain A
+2021-04-13 12:28:51 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:28:51 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:51 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:28:51 - logger <INFO> Processing reference chain B
+2021-04-13 12:28:51 - logger <INFO> Processing sample chain A
+2021-04-13 12:28:51 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:28:51 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:51 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:28:51 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:28:52 - logger <INFO> Putative chain to add is B
+2021-04-13 12:28:52 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:28:52 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:28:52 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:28:52 - logger <INFO> Putative chain to add is A
+2021-04-13 12:28:52 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:28:52 - logger <INFO> This is the iteration #1 of the recursive function
+2021-04-13 12:28:52 - logger <INFO> The complex has 2 chains at this point
+2021-04-13 12:28:52 - logger <INFO> We are processing the file 6m17_BD.pdb
+2021-04-13 12:28:53 - logger <INFO> Processing reference chain A
+2021-04-13 12:28:53 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:53 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:28:53 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:53 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:28:53 - logger <INFO> Processing reference chain B
+2021-04-13 12:28:53 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:53 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:28:54 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:54 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:28:54 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:28:54 - logger <INFO> Putative chain to add is D
+2021-04-13 12:28:54 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:28:54 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:28:54 - logger <INFO> Chain B superimposed with chain B yields rotated chain D which is not in the complex
+2021-04-13 12:28:54 - logger <INFO> Added Chain D
+2021-04-13 12:28:54 - logger <INFO> This is the iteration #2 of the recursive function
+2021-04-13 12:28:55 - logger <INFO> The complex has 3 chains at this point
+2021-04-13 12:28:55 - logger <INFO> We are processing the file 6m17_BE.pdb
+2021-04-13 12:28:55 - logger <INFO> Processing reference chain A
+2021-04-13 12:28:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:55 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:28:55 - logger <INFO> Processing sample chain E
+2021-04-13 12:28:55 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:28:55 - logger <INFO> Processing reference chain B
+2021-04-13 12:28:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:56 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:28:56 - logger <INFO> Processing sample chain E
+2021-04-13 12:28:56 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:28:56 - logger <INFO> Processing reference chain D
+2021-04-13 12:28:56 - logger <INFO> Processing sample chain B
+2021-04-13 12:28:56 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:28:56 - logger <INFO> Processing sample chain E
+2021-04-13 12:28:56 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:28:56 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:28:56 - logger <INFO> Putative chain to add is E
+2021-04-13 12:28:57 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:28:57 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:28:57 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:28:57 - logger <INFO> Chain B superimposed with chain B yields rotated chain E which is not in the complex
+2021-04-13 12:28:57 - logger <INFO> Added Chain E
+2021-04-13 12:28:57 - logger <INFO> This is the iteration #3 of the recursive function
+2021-04-13 12:28:57 - logger <INFO> The complex has 4 chains at this point
+2021-04-13 12:28:57 - logger <INFO> We are processing the file 6m17_CD.pdb
+2021-04-13 12:28:58 - logger <INFO> Processing reference chain A
+2021-04-13 12:28:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:28:58 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:28:58 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:58 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:28:58 - logger <INFO> Processing reference chain B
+2021-04-13 12:28:58 - logger <INFO> Processing sample chain C
+2021-04-13 12:28:58 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:28:58 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:58 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:28:59 - logger <INFO> Processing reference chain D
+2021-04-13 12:28:59 - logger <INFO> Processing sample chain C
+2021-04-13 12:28:59 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:28:59 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:59 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:28:59 - logger <INFO> Processing reference chain E
+2021-04-13 12:28:59 - logger <INFO> Processing sample chain C
+2021-04-13 12:28:59 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:28:59 - logger <INFO> Processing sample chain D
+2021-04-13 12:28:59 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:00 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:00 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:00 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:00 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:00 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:00 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:00 - logger <INFO> Chain D superimposed with chain D yields rotated chain C which is not in the complex
+2021-04-13 12:29:00 - logger <INFO> Added Chain C
+2021-04-13 12:29:00 - logger <INFO> This is the iteration #4 of the recursive function
+2021-04-13 12:29:00 - logger <INFO> The complex has 5 chains at this point
+2021-04-13 12:29:01 - logger <INFO> We are processing the file 6m17_DF.pdb
+2021-04-13 12:29:01 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:01 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:01 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:29:01 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:01 - logger <WARNING> Cannot superimpose. Chain A and F differ in length
+2021-04-13 12:29:01 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:01 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:01 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:29:02 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:02 - logger <WARNING> Cannot superimpose. Chain B and F differ in length
+2021-04-13 12:29:02 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:02 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:02 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:29:02 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:02 - logger <WARNING> Cannot superimpose. Chain D and F differ in length
+2021-04-13 12:29:02 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:03 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:03 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:03 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:03 - logger <INFO> The RMSD between fixed chain E and query chain F is 5.851331435678353e-06
+2021-04-13 12:29:03 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:03 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:03 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:29:03 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:03 - logger <WARNING> Cannot superimpose. Chain C and F differ in length
+2021-04-13 12:29:03 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:04 - logger <INFO> Putative chain to add is F
+2021-04-13 12:29:04 - logger <INFO> The number of clashes between the chain to add F and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:04 - logger <INFO> The number of clashes between the chain to add F and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:04 - logger <INFO> The number of clashes between the chain to add F and reference chain D is 1, it is under the threshold
+2021-04-13 12:29:04 - logger <INFO> The number of clashes between the chain to add F and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:04 - logger <INFO> The number of clashes between the chain to add F and reference chain C is 0, it is under the threshold
+2021-04-13 12:29:04 - logger <INFO> Chain D superimposed with chain D yields rotated chain F which is not in the complex
+2021-04-13 12:29:04 - logger <INFO> Added Chain F
+2021-04-13 12:29:04 - logger <INFO> This is the iteration #5 of the recursive function
+2021-04-13 12:29:04 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:04 - logger <INFO> We are processing the file 6m17_1.pdb
+2021-04-13 12:29:05 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:05 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:05 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:29:05 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:05 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:05 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:05 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:05 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:29:06 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:06 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:06 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:06 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:06 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:29:06 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:06 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:06 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:06 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:06 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:29:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:07 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:07 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:07 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:29:07 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:07 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:07 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:07 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:07 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:29:08 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:08 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:08 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:29:08 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:08 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:08 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:08 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:08 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:08 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:08 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:09 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:09 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:29:09 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:09 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:10 - logger <INFO> This is the iteration #6 of the recursive function
+2021-04-13 12:29:10 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:10 - logger <INFO> We are processing the file 6m17_2.pdb
+2021-04-13 12:29:10 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:10 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:10 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:29:10 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:10 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:29:11 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:11 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:11 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:29:11 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:11 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:29:11 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:11 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:11 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:29:11 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:11 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:29:11 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:12 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:12 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:29:12 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:12 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:29:12 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:12 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:12 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:29:12 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:12 - logger <INFO> The RMSD between fixed chain C and query chain C is 1.5405553711723773e-14
+2021-04-13 12:29:12 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:13 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:13 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:29:13 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:13 - logger <WARNING> Cannot superimpose. Chain F and C differ in length
+2021-04-13 12:29:13 - logger <INFO> Superimposition of ref chain C with sample chain C with an RMSD of 1.5405553711723773e-14
+2021-04-13 12:29:13 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:13 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:13 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:29:13 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:13 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:14 - logger <INFO> Superimposition of ref chain A with sample chain C with an RMSD of 4.97874195266334e-06
+2021-04-13 12:29:14 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:14 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:29:14 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:14 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:15 - logger <INFO> This is the iteration #7 of the recursive function
+2021-04-13 12:29:15 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:15 - logger <INFO> We are processing the file 6m17_3.pdb
+2021-04-13 12:29:15 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:15 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:15 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:15 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:16 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:29:16 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:16 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:16 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:16 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:16 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:29:16 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:16 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:16 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:16 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:17 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:29:17 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:17 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:17 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:17 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:17 - logger <INFO> The RMSD between fixed chain E and query chain E is 1.1314194731056107e-14
+2021-04-13 12:29:17 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:17 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:17 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:17 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:17 - logger <WARNING> Cannot superimpose. Chain C and E differ in length
+2021-04-13 12:29:18 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:18 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:18 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:18 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:18 - logger <INFO> The RMSD between fixed chain F and query chain E is 5.851331436667065e-06
+2021-04-13 12:29:18 - logger <INFO> Superimposition of ref chain E with sample chain E with an RMSD of 1.1314194731056107e-14
+2021-04-13 12:29:18 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:18 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:18 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:18 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:19 - logger <INFO> Putative chain to add is E
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add E and reference chain E is 611, therefore the chain is skipped
+2021-04-13 12:29:19 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:19 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:19 - logger <INFO> The number of clashes between the chain to add B and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:19 - logger <INFO> Superimposition of ref chain F with sample chain E with an RMSD of 5.851331436667065e-06
+2021-04-13 12:29:20 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:20 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:20 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:20 - logger <INFO> This is the iteration #8 of the recursive function
+2021-04-13 12:29:20 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:20 - logger <INFO> We are processing the file 6m17_4.pdb
+2021-04-13 12:29:20 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:20 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:20 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:21 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:21 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:29:21 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:21 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:21 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:21 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:21 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:29:21 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:21 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:22 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:22 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:22 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:29:22 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:22 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:22 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:22 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:22 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:22 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:23 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:23 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:23 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:29:23 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:23 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:23 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:23 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:23 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:29:23 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:23 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:24 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:24 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:24 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:29:24 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:24 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:25 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:25 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:25 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:25 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:25 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:25 - logger <INFO> This is the iteration #9 of the recursive function
+2021-04-13 12:29:25 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:25 - logger <INFO> We are processing the file 6m17_AB.pdb
+2021-04-13 12:29:26 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:26 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:26 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:29:26 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:26 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:26 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:26 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:26 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:29:27 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:27 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:27 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:27 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:27 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:29:27 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:27 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:27 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:27 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:27 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:29:28 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:28 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:28 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:28 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:28 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:29:28 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:28 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:28 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:28 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:28 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:29:29 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:29 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:29 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:29:29 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:29 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:29 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:29 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:29 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:29 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:29 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:30 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:30 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:29:30 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:30 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:31 - logger <INFO> This is the iteration #10 of the recursive function
+2021-04-13 12:29:31 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:31 - logger <INFO> We are processing the file 6m17_BD.pdb
+2021-04-13 12:29:31 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:31 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:31 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:31 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:31 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:29:31 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:32 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:32 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:32 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:32 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:29:32 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:32 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:32 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:32 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:32 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:29:32 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:33 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:33 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:33 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:33 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:33 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:33 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:33 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:34 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:34 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:29:34 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:34 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:34 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:34 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:34 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:29:34 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:34 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:34 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:35 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:35 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:35 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:35 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:35 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:35 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:35 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:29:35 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:35 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:36 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:36 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:36 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:36 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:36 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:36 - logger <INFO> This is the iteration #11 of the recursive function
+2021-04-13 12:29:36 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:36 - logger <INFO> We are processing the file 6m17_BE.pdb
+2021-04-13 12:29:37 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:37 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:37 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:37 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:37 - logger <WARNING> Cannot superimpose. Chain A and E differ in length
+2021-04-13 12:29:37 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:37 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:37 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:37 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:37 - logger <WARNING> Cannot superimpose. Chain B and E differ in length
+2021-04-13 12:29:38 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:38 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:38 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:38 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:38 - logger <WARNING> Cannot superimpose. Chain D and E differ in length
+2021-04-13 12:29:38 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:38 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:38 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:38 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:38 - logger <INFO> The RMSD between fixed chain E and query chain E is 1.1314194731056107e-14
+2021-04-13 12:29:39 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:39 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:39 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:39 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:39 - logger <WARNING> Cannot superimpose. Chain C and E differ in length
+2021-04-13 12:29:39 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:39 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:39 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:40 - logger <INFO> Processing sample chain E
+2021-04-13 12:29:40 - logger <INFO> The RMSD between fixed chain F and query chain E is 5.851331436667065e-06
+2021-04-13 12:29:40 - logger <INFO> Superimposition of ref chain E with sample chain E with an RMSD of 1.1314194731056107e-14
+2021-04-13 12:29:40 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:40 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:40 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:40 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:40 - logger <INFO> Putative chain to add is E
+2021-04-13 12:29:40 - logger <INFO> The number of clashes between the chain to add E and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:40 - logger <INFO> The number of clashes between the chain to add E and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:40 - logger <INFO> The number of clashes between the chain to add E and reference chain D is 0, it is under the threshold
+2021-04-13 12:29:41 - logger <INFO> The number of clashes between the chain to add E and reference chain E is 611, therefore the chain is skipped
+2021-04-13 12:29:41 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:41 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:41 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:41 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:41 - logger <INFO> The number of clashes between the chain to add B and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:41 - logger <INFO> Superimposition of ref chain F with sample chain E with an RMSD of 5.851331436667065e-06
+2021-04-13 12:29:41 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:42 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:42 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:42 - logger <INFO> This is the iteration #12 of the recursive function
+2021-04-13 12:29:42 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:42 - logger <INFO> We are processing the file 6m17_CD.pdb
+2021-04-13 12:29:42 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:42 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:43 - logger <INFO> The RMSD between fixed chain A and query chain C is 4.97874195266334e-06
+2021-04-13 12:29:43 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:43 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:29:43 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:43 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:43 - logger <WARNING> Cannot superimpose. Chain B and C differ in length
+2021-04-13 12:29:43 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:43 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:29:43 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:43 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:43 - logger <WARNING> Cannot superimpose. Chain D and C differ in length
+2021-04-13 12:29:44 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:44 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:29:44 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:44 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:44 - logger <WARNING> Cannot superimpose. Chain E and C differ in length
+2021-04-13 12:29:44 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:45 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:45 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:45 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:45 - logger <INFO> The RMSD between fixed chain C and query chain C is 1.5405553711723773e-14
+2021-04-13 12:29:45 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:45 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:29:45 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:45 - logger <INFO> Processing sample chain C
+2021-04-13 12:29:45 - logger <WARNING> Cannot superimpose. Chain F and C differ in length
+2021-04-13 12:29:45 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:45 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:29:46 - logger <INFO> Superimposition of ref chain C with sample chain C with an RMSD of 1.5405553711723773e-14
+2021-04-13 12:29:46 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:46 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:46 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:46 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:46 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:46 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:46 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:47 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:47 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:47 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:47 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:47 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:29:47 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:47 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:47 - logger <INFO> Superimposition of ref chain A with sample chain C with an RMSD of 4.97874195266334e-06
+2021-04-13 12:29:47 - logger <INFO> Putative chain to add is C
+2021-04-13 12:29:48 - logger <INFO> The number of clashes between the chain to add C and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:48 - logger <INFO> The number of clashes between the chain to add C and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:48 - logger <INFO> The number of clashes between the chain to add C and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:48 - logger <INFO> The number of clashes between the chain to add C and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:48 - logger <INFO> The number of clashes between the chain to add C and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:48 - logger <INFO> This is the iteration #13 of the recursive function
+2021-04-13 12:29:48 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:48 - logger <INFO> We are processing the file 6m17_DF.pdb
+2021-04-13 12:29:48 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:49 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:49 - logger <WARNING> Cannot superimpose. Chain A and D differ in length
+2021-04-13 12:29:49 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:49 - logger <WARNING> Cannot superimpose. Chain A and F differ in length
+2021-04-13 12:29:49 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:49 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:49 - logger <INFO> The RMSD between fixed chain B and query chain D is 4.5348266159336334e-06
+2021-04-13 12:29:49 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:49 - logger <WARNING> Cannot superimpose. Chain B and F differ in length
+2021-04-13 12:29:49 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:50 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:50 - logger <INFO> The RMSD between fixed chain D and query chain D is 3.054613504354387e-14
+2021-04-13 12:29:50 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:50 - logger <WARNING> Cannot superimpose. Chain D and F differ in length
+2021-04-13 12:29:50 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:50 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:50 - logger <WARNING> Cannot superimpose. Chain E and D differ in length
+2021-04-13 12:29:50 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:50 - logger <INFO> The RMSD between fixed chain E and query chain F is 5.851331435678353e-06
+2021-04-13 12:29:50 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:51 - logger <WARNING> Cannot superimpose. Chain C and D differ in length
+2021-04-13 12:29:51 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:51 - logger <WARNING> Cannot superimpose. Chain C and F differ in length
+2021-04-13 12:29:51 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:51 - logger <INFO> Processing sample chain D
+2021-04-13 12:29:51 - logger <WARNING> Cannot superimpose. Chain F and D differ in length
+2021-04-13 12:29:51 - logger <INFO> Processing sample chain F
+2021-04-13 12:29:51 - logger <INFO> The RMSD between fixed chain F and query chain F is 2.058544533668249e-14
+2021-04-13 12:29:51 - logger <INFO> Superimposition of ref chain F with sample chain F with an RMSD of 2.058544533668249e-14
+2021-04-13 12:29:52 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:52 - logger <INFO> Superimposition of ref chain D with sample chain D with an RMSD of 3.054613504354387e-14
+2021-04-13 12:29:52 - logger <INFO> Putative chain to add is F
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add F and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add F and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add F and reference chain D is 1, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add F and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:52 - logger <INFO> The number of clashes between the chain to add F and reference chain C is 0, it is under the threshold
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add F and reference chain F is 611, therefore the chain is skipped
+2021-04-13 12:29:53 - logger <INFO> Superimposition of ref chain B with sample chain D with an RMSD of 4.5348266159336334e-06
+2021-04-13 12:29:53 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:53 - logger <INFO> Superimposition of ref chain E with sample chain F with an RMSD of 5.851331435678353e-06
+2021-04-13 12:29:53 - logger <INFO> Putative chain to add is D
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add D and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add D and reference chain B is 1, it is under the threshold
+2021-04-13 12:29:53 - logger <INFO> The number of clashes between the chain to add D and reference chain D is 2458, therefore the chain is skipped
+2021-04-13 12:29:54 - logger <INFO> This is the iteration #14 of the recursive function
+2021-04-13 12:29:54 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:54 - logger <INFO> We are processing the file 6m17_1.pdb
+2021-04-13 12:29:54 - logger <INFO> Processing reference chain A
+2021-04-13 12:29:54 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:54 - logger <INFO> The RMSD between fixed chain A and query chain A is 1.8569177726219083e-14
+2021-04-13 12:29:54 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:54 - logger <WARNING> Cannot superimpose. Chain A and B differ in length
+2021-04-13 12:29:55 - logger <INFO> Processing reference chain B
+2021-04-13 12:29:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:55 - logger <WARNING> Cannot superimpose. Chain B and A differ in length
+2021-04-13 12:29:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:55 - logger <INFO> The RMSD between fixed chain B and query chain B is 2.1189247079324873e-14
+2021-04-13 12:29:55 - logger <INFO> Processing reference chain D
+2021-04-13 12:29:55 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:55 - logger <WARNING> Cannot superimpose. Chain D and A differ in length
+2021-04-13 12:29:55 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:55 - logger <INFO> The RMSD between fixed chain D and query chain B is 4.5348266170422115e-06
+2021-04-13 12:29:56 - logger <INFO> Processing reference chain E
+2021-04-13 12:29:56 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:56 - logger <WARNING> Cannot superimpose. Chain E and A differ in length
+2021-04-13 12:29:56 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:56 - logger <WARNING> Cannot superimpose. Chain E and B differ in length
+2021-04-13 12:29:56 - logger <INFO> Processing reference chain C
+2021-04-13 12:29:56 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:56 - logger <INFO> The RMSD between fixed chain C and query chain A is 4.978741953165367e-06
+2021-04-13 12:29:56 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:56 - logger <WARNING> Cannot superimpose. Chain C and B differ in length
+2021-04-13 12:29:57 - logger <INFO> Processing reference chain F
+2021-04-13 12:29:57 - logger <INFO> Processing sample chain A
+2021-04-13 12:29:57 - logger <WARNING> Cannot superimpose. Chain F and A differ in length
+2021-04-13 12:29:57 - logger <INFO> Processing sample chain B
+2021-04-13 12:29:57 - logger <WARNING> Cannot superimpose. Chain F and B differ in length
+2021-04-13 12:29:57 - logger <INFO> Superimposition of ref chain A with sample chain A with an RMSD of 1.8569177726219083e-14
+2021-04-13 12:29:57 - logger <INFO> Putative chain to add is B
+2021-04-13 12:29:57 - logger <INFO> The number of clashes between the chain to add B and reference chain A is 3, it is under the threshold
+2021-04-13 12:29:57 - logger <INFO> The number of clashes between the chain to add B and reference chain B is 2458, therefore the chain is skipped
+2021-04-13 12:29:58 - logger <INFO> Superimposition of ref chain B with sample chain B with an RMSD of 2.1189247079324873e-14
+2021-04-13 12:29:58 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:58 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:58 - logger <INFO> Superimposition of ref chain D with sample chain B with an RMSD of 4.5348266170422115e-06
+2021-04-13 12:29:58 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:58 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 0, it is under the threshold
+2021-04-13 12:29:58 - logger <INFO> The number of clashes between the chain to add A and reference chain B is 0, it is under the threshold
+2021-04-13 12:29:58 - logger <INFO> The number of clashes between the chain to add A and reference chain D is 3, it is under the threshold
+2021-04-13 12:29:58 - logger <INFO> The number of clashes between the chain to add A and reference chain E is 0, it is under the threshold
+2021-04-13 12:29:59 - logger <INFO> The number of clashes between the chain to add A and reference chain C is 2021, therefore the chain is skipped
+2021-04-13 12:29:59 - logger <INFO> Superimposition of ref chain C with sample chain A with an RMSD of 4.978741953165367e-06
+2021-04-13 12:29:59 - logger <INFO> Putative chain to add is A
+2021-04-13 12:29:59 - logger <INFO> The number of clashes between the chain to add A and reference chain A is 2021, therefore the chain is skipped
+2021-04-13 12:29:59 - logger <INFO> This is the iteration #15 of the recursive function
+2021-04-13 12:29:59 - logger <INFO> The complex has 6 chains at this point
+2021-04-13 12:29:59 - logger <INFO> The whole macrocomplex has been build
+2021-04-13 12:29:59 - logger <INFO> The final complex has 6 chains
+2021-04-13 12:29:59 - logger <INFO> We have arrived to iteration 15
+2021-04-13 12:30:00 - logger <INFO> Output files McComplex.pdb and 
+	McComplex.log saved in /home/ferran/MSc/PYT/SBI_PYT_Develop_OPTIMIZATION_12_04/SBI_PYT_Develop_OPTIMIZATION_12_04/examples/6m17_output
+2021-04-13 12:30:35 - logger <INFO> 
+
+The initial energy of McComplex is 25299.048828125
+2021-04-13 12:30:35 - logger <INFO> 
+
+The final energy of McComplex is 11578.7255859375
+2021-04-13 12:30:35 - logger <INFO> The program has finished. It took 106.000738 seconds
