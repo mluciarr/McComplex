@@ -16,6 +16,7 @@ def Optimizemodel(pdb_file):
 	with its energies and restraint contributions. Also it will create pdbs on 
 	every step of the Molecular Dynamics optimization. The energy is returned as
 	the total value	of Modeller's objective function, molpdf. 
+	It also shows the topt 10 contributors to the molpdf before and after optimization
 	"""
 	# Setting up
 	env = environ()
@@ -60,6 +61,10 @@ def Optimizemodel(pdb_file):
 
 	# Final energy
 	final_mpdf = atmsel.energy()
+
+	# Assess DOPE
+	atmsel.assess_dope(output='ENERGY_PROFILE NO_REPORT', file='TvLDH.profile',
+              normalize_profile=True, smoothing_window=15)
 
 	
 	# Print the energies and the contributions
