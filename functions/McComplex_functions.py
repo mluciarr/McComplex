@@ -95,8 +95,8 @@ def dict_superimposition(ref_structure, query_structure, rmsd_threshold,i):
 		ref_atoms, ref_molecule_type = get_key_atoms(ref_chain)
 		## loops through all chains in the sample model ##
 		for query_chain in query_model:
-			print("Processing squery chain %s" % query_chain.id)
-			l.info("Processing squery chain %s" % query_chain.id)
+			print("Processing query chain %s" % query_chain.id)
+			l.info("Processing query chain %s" % query_chain.id)
 			query_atoms, query_molecule_type = get_key_atoms(query_chain)
 			# Check for equal molecule type and length, superimpose if both true
 			if ref_molecule_type != query_molecule_type:
