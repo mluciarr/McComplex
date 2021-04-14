@@ -1,6 +1,6 @@
-# *BRANDON* macrocomplex builder
+# *McComplex* macrocomplex builder
 
-*by Guillermo Palou Márquez and Javier Sánchez Utgés*
+*by *
 
 ## **TABLE OF CONTENTS**
 
