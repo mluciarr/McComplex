@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from distutils.core import setup
+import setuptools 
 
-setup(name='McCrocomplex',
+setup(name='McComplex',
 	version='1.0',
-	description='This program is able to reconstruct biological macrocomplexes of protein-protein interactions as well as protein-DNA/RNA interactions given a set of binary interactions and the desired number of chains of the target complex.',
+	description="""This program reconstructs macrocomplexes of protein-protein 
+	and protein-(DNA/RNA) from a list of files of binary interactions of its chains""",
 	author='Maria Lucía Romero, Ferran Pegenaute, Ipek Yaren',
 	author_email='ferran.pegenaute01@estudiant.upf.edu',
 	long_description=open('README.md').read(),
-	install_requires=['biopython >= 1.73.0','argparse >= 1.1.0', 'pysimplelog' ],
+	install_requires=['biopython >= 1.73.0','argparse >= 1.1.0', 'pysimplelog'],
+	packages=['McComplex', 'McComplex.functions'],
 	license='LICENSE.txt',
-	url='https://github.com/ferranpgp/McCrocomplex',
-	scripts='McComplex_builder.py')
+	url='https://github.com/ferranpgp/McCrocomplex')

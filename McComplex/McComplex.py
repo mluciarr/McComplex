@@ -94,7 +94,11 @@ else:
 	McComplex.log""",os.path.abspath(arguments.outdir)))
 
 	if arguments.optimisation:
-		Optimizemodel("McComplex.pdb")
+		try:
+			Optimizemodel("McComplex.pdb")
+		except Exception:
+			l.warn("Optimization not available, check Modeller")
+			pass
 
 
 end = timeit.default_timer()
