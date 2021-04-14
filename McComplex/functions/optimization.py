@@ -69,7 +69,7 @@ def Optimizemodel(pdb_file):
 	
 	# Print the energies and the contributions
 	initial_cont_all = dict(initial_mpdf[1])
-	top_init_conts = dict(sorted(initial_cont_all.items(), key = itemgetter(1), reverse = True)[:10])
+	top_init_conts = dict(sorted(initial_cont_all.items(), key = itemgetter(1), reverse = True)[:5])
 	
 	l.info("\n\nThe initial energy of " + code + " is " + str(initial_mpdf[0]))
 	print("\n\nThe initial energy of " + code + " is " + str(initial_mpdf[0]))
@@ -78,11 +78,11 @@ def Optimizemodel(pdb_file):
 		print(keys, ":", values)
 
 	final_cont_all = dict(final_mpdf[1])
-	top_final_conts = dict(sorted(final_cont_all.items(), key = itemgetter(1), reverse = True)[:10])
+	top_final_conts = dict(sorted(final_cont_all.items(), key = itemgetter(1), reverse = True)[:5])
 	
 	l.info("\n\nThe final energy of " + code + " is " + str(final_mpdf[0]))
 	print("\n\nThe final energy of " + code + " is " + str(final_mpdf[0]))
-	print("The top 10 final contributions the restraints are:\n")
+	print("Final contributions the restraints are:\n")
 	for keys, values in top_final_conts.items():
 		print(keys, ":", values)
 
