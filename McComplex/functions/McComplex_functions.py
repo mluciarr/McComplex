@@ -11,7 +11,7 @@ import imp
 sequence_data = imp.load_source('sequence_data', 'data/sequence_data.py')
 import subprocess
 import sys
-from functions.parser_logger import l
+from McComplex.functions.parser_logger import l
 
 
 

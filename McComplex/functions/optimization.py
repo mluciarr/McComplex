@@ -1,4 +1,4 @@
-from functions.parser_logger import l
+from McComplex.functions.parser_logger import l
 try:
     from modeller import *
     from modeller.scripts import complete_pdb
